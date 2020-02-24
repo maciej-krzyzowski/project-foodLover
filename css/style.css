@@ -1,2 +1,62 @@
+body {
+  font-family: Aachen;
+  font-weight: 100;
+  color: white;
+}
+
+.hero {
+  background-image: url("../image/hero/hero-background.jpg");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  background-color: rgba(40, 40, 45, 0.9);
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.nav-right {
+  padding-right: 36px;
+}
+
+.nav-item {
+  margin: 4px 31px 0 0;
+}
+
+.active {
+  color: #e58f00;
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1300px;
+  }
+  .nav-item {
+    margin-right: 51px;
+  }
+}
+
+@media (max-width: 992px) {
+  .collapse {
+    background-color: rgba(40, 40, 45, 0.3);
+    width: 100vw;
+  }
+  .nav-right {
+    padding-right: 0;
+  }
+  .nav-item {
+    margin: 5px 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
