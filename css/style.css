@@ -1,19 +1,38 @@
 body {
   font-family: Aachen;
-  font-weight: 100;
-  color: white;
+  color: #fff;
+  background-color: #1d1d23;
+}
+
+.nav-right {
+  padding-right: 36px;
+}
+
+.nav-item {
+  margin: 4px 31px 0 0;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #e58f00;
+}
+
+.active {
+  color: #e58f00;
 }
 
 .hero {
-  background-image: url("../image/hero/hero-background.jpg");
-  height: 100vh;
+  background-image: url("../image/background/hero-background.jpg");
   background-size: cover;
-  position: relative;
+  padding-bottom: 127px;
 }
 
 .hero::before {
   content: '';
-  background-color: rgba(40, 40, 45, 0.9);
+  background-color: rgba(40, 40, 45, 0.95);
   display: block;
   width: 100%;
   height: 100%;
@@ -25,16 +44,194 @@ body {
   z-index: 0;
 }
 
-.nav-right {
-  padding-right: 36px;
+.hero-wrapper {
+  margin-top: 50px;
 }
 
-.nav-item {
-  margin: 4px 31px 0 0;
+.hero-img {
+  left: -37px;
+  bottom: -3px;
 }
 
-.active {
+.hero-caption {
+  padding-left: 12px;
+}
+
+.haro-title {
+  font-size: 67px;
   color: #e58f00;
+}
+
+.hero-paragraph {
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 19px;
+}
+
+.btn-hero {
+  color: #000;
+  background-color: #e58f00;
+  margin-top: 14px;
+  font-size: 24px;
+  padding: 16px 40px;
+}
+
+.aboutUs {
+  margin: 120px 0 76px 0;
+}
+
+.aboutUs-title {
+  font-size: 49px;
+}
+
+.aboutUs-paragraph {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.foodQuality {
+  margin-bottom: 173px;
+}
+
+.foodQuality-img-background {
+  margin-top: 128px;
+}
+
+.foodQuality-caption {
+  top: 0;
+  left: 50px;
+}
+
+.foodQuality-img-1 {
+  top: 0;
+  right: 0;
+  width: 29.8%;
+}
+
+.foodQuality-img-2 {
+  bottom: 39px;
+  left: 0;
+  width: 36%;
+}
+
+.foodQuality-img-3 {
+  bottom: -3px;
+  right: 0;
+  width: 60.5%;
+}
+
+.foodQuality-caption {
+  top: 26.9%;
+  padding-left: 31px;
+}
+
+.foodQuality-title {
+  font-size: 38px;
+}
+
+.foodQuality-paragraph {
+  margin-top: 20px;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+.gallery {
+  margin-bottom: 130px;
+}
+
+.gallery-title {
+  font-size: 48px;
+  margin-bottom: 95px;
+}
+
+.ourFood {
+  background-image: url("../image/background/ourFood-background.png");
+  background-size: cover;
+  padding: 193px 0;
+  margin-bottom: 169px;
+}
+
+.ourFood-caption {
+  padding: 70px 70px 107px;
+  border: 10px solid #e58f00;
+  background-color: rgba(40, 40, 45, 0.95);
+}
+
+.ourFood-title {
+  font-size: 49px;
+  margin-bottom: 23px;
+}
+
+.ourFood-paragraph {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.menu {
+  margin-bottom: 136px;
+}
+
+.menu-title {
+  font-size: 50px;
+  margin-bottom: 79px;
+}
+
+.card-img {
+  margin-bottom: 45px;
+}
+
+.card-title {
+  font-size: 29px;
+  color: #e58f00;
+  margin-bottom: 14px;
+}
+
+.card-paragraph {
+  line-height: 21px;
+  margin-bottom: 41px;
+}
+
+.card-price {
+  font-size: 24px;
+  color: #e58f00;
+}
+
+.bestMeal {
+  background-color: #e58f00;
+  margin-bottom: 80px;
+}
+
+.bestMeal-img {
+  top: -70px;
+  left: 0;
+}
+
+.bestMeal-caption {
+  padding: 70px 0 70px 40px;
+}
+
+.bestMeal-title {
+  font-size: 50px;
+  margin-bottom: 22px;
+}
+
+.bestMeal-paragraph {
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.footer {
+  margin-bottom: 106px;
+}
+
+.footer-img {
+  margin-bottom: 42px;
+}
+
+.nav-footer {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 1300px) {
@@ -44,18 +241,105 @@ body {
   .nav-item {
     margin-right: 51px;
   }
+  .hero-wrapper {
+    margin-top: 85px;
+  }
+  .aboutUs-caption {
+    margin-top: 115px;
+  }
+  .foodQuality-title {
+    font-size: 48px;
+  }
+  .foodQuality-paragraph {
+    margin-top: 24px;
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .bestMeal-img {
+    top: -66px;
+  }
+  .bestMeal-caption {
+    padding: 126px 0 120px;
+  }
 }
 
 @media (max-width: 992px) {
-  .collapse {
-    background-color: rgba(40, 40, 45, 0.3);
-    width: 100vw;
-  }
   .nav-right {
     padding-right: 0;
   }
   .nav-item {
     margin: 5px 0;
+  }
+  .haro-title {
+    font-size: 35px;
+  }
+  .hero-paragraph {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .btn-hero {
+    font-size: 18x;
+    padding: 12px 32px;
+  }
+  .aboutUs-title {
+    font-size: 35px;
+  }
+  .aboutUs-paragraph {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .foodQuality-img-1 {
+    top: 72px;
+    right: 0;
+  }
+  .foodQuality-img-2 {
+    bottom: 10px;
+    left: 0;
+  }
+  .foodQuality-img-3 {
+    bottom: -15px;
+    right: 0;
+  }
+  .foodQuality-title {
+    font-size: 35px;
+  }
+  .foodQuality-paragraph {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .ourFood-caption {
+    padding: 30px 30px;
+  }
+  .ourFood-title {
+    font-size: 35px;
+  }
+  .ourFood-paragraph {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .bestMeal-img {
+    top: -12px;
+    width: 42%;
+  }
+  .bestMeal-caption {
+    padding: 60px 0;
+  }
+  .bestMeal-title {
+    font-size: 35px;
+  }
+  .bestMeal-paragraph {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .foodQuality-caption {
+    padding-left: 0px;
+    top: 36%;
+  }
+  .footer-logo {
+    width: 100%;
   }
 }
 

@@ -8,55 +8,210 @@
     <script src="https://kit.fontawesome.com/c5afe1f91e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="//db.onlinewebfonts.com/c/187f354c36ef5e7efbb220ac879af1dd?family=Aachen" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="hero">
+    
+    <section class="hero position-relative">
         <div class="container">
             <nav class="navbar navbar-dark navbar-expand-lg px-0">
                 <a class="navbar-brand col-2 mx-0 pt-3 justify-content-center d-lg-none" href="#">
                     <img src="image/hero/logo.png">
                 </a>
-
+    
                 <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse my-4 text-right" id="mobile-menu">
+    
+                <div class="collapse navbar-collapse my-4 text-center" id="mobile-menu">
                     <ul class="nav col-lg-5 px-0 justify-content-start flex-column flex-lg-row">
                         <li class="nav-item">
                             <a class="nav-link active px-0 justify-content-end" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white px-0" href="#">ABOUT</a>
+                            <a class="nav-link px-0" href="#aboutUs">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white px-0" href="#">MENUS</a>
+                            <a class="nav-link px-0" href="#menus">MENUS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white px-0 mr-0" href="#">OFFERS</a>
+                            <a class="nav-link px-0 mr-0" href="#">OFFERS</a>
                         </li>
                     </ul>
-
+    
                     <a class="navbar-brand col-2 mx-0 pt-2 text-center d-none d-lg-inline-block" href="#">
                         <img src="image/hero/logo.png">
                     </a>
-
+    
                     <ul class="nav col-lg-5 nav-right justify-content-end flex-column flex-lg-row">
                         <li class="nav-item">
-                            <a class="nav-link text-white px-0" href="#">GALLERY</a>
+                            <a class="nav-link px-0" href="#gallery">GALLERY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white px-0" href="#">CONTACT</a>
+                            <a class="nav-link px-0" href="#">CONTACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white px-0" href="#">BLOG</a>
+                            <a class="nav-link px-0" href="#blog">BLOG</a>
                         </li>
                     </ul>
                 </div>
-
             </nav>
+            
+            <div class="hero-wrapper row">
+                <div class="hero-img col-md-6 d-none d-md-inline-block position-relative">
+                    <img src="image/hero/hero.png" class="img-fluid">
+                </div>
+                <div class="hero-caption col-10 col-md-6 mt-0 mt-xl-5 mx-auto">
+                    <h1 class="haro-title mt-1">Contact Us For Best Breakfast</h1>
+                    <p class="hero-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <button type="button" class="btn btn-lg btn-hero">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="aboutUs" id="aboutUs">
+        <div class="container">
+            <div class="row">
+                <div class="aboutUs-img col-6 px-0 d-none d-md-inline-block">
+                    <img src="image/aboutUs.jpg" class="w-100 ml-0 ml-xl-5">
+                </div>
+                <div class="aboutUs-caption col-10 col-md-5 mx-auto pl-md-5 ml-md-5">
+                    <h1 class="aboutUs-title">About Us</h1>
+                    <p class="aboutUs-paragraph mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="foodQuality position-relative mx-auto">
+        <img src="image/background//foodQuality-background.png" class="foodQuality-img-background w-100">
+        <img src="image/foodQuality/foodQuality1.png" class="foodQuality-img-1 position-absolute">
+        <img src="image/foodQuality/foodQuality2.png" class="foodQuality-img-2 position-absolute">
+        <img src="image/foodQuality/foodQuality3.png" class="foodQuality-img-3 position-absolute d-none d-sm-inline-block">
+        <div class="container">
+            <div class="foodQuality-caption col-10 col-sm-7 col-md-6 col-lg-5 offset-md-1 position-absolute">
+                <h1 class="foodQuality-title">Our Food Quality</h1>
+                <p class="foodQuality-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery mx-auto" id="gallery">
+        <div class="container">
+            <h1 class="gallery-title text-center">Our Food Gallery</h1>
+            <div class="row justify-content-between">
+                <div class="col-10 col-md-6 col-lg-4 mb-5 px-3 mx-auto">
+                    <img src="image/gallery/gallery1.png" class="w-100">
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mb-5 px-3 mx-auto">
+                    <img src="image/gallery/gallery2.png" class="w-100">
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mb-5 px-3 mx-auto">
+                    <img src="image/gallery/gallery3.png" class="w-100">
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mb-5 px-3 mx-auto">
+                    <img src="image/gallery/gallery4.png" class="w-100">
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mb-5 px-3 mx-auto">
+                    <img src="image/gallery/gallery5.png" class="w-100">
+                </div>
+                <div class="col-10 col-md-6 col-lg-4 mb-5 px-3 mx-auto">
+                    <img src="image/gallery/gallery6.png" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ourFood" id="blog">
+        <div class="container">
+            <div class="ourFood-caption col-10 col-lg-7 mx-auto text-center">
+                <h2 class="ourFood-title ">Enjoy Our Food</h2>
+                <p class="ourFood-paragraph ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menus">
+        <div class="container">
+            <h1 class="menu-title text-center">Our Menu</h1>
+            <div class="row justify-content-between">
+                <div class="col-10 col-lg-4 px-3 mx-auto mb-5">
+                    <img src="image/menu/menu1.png" class="card-img w-100">
+                    <h2 class="card-title">ITALIAN SOURCE MASHROOM</h2>
+                    <p class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <h3 class="card-price">PRICE: $12.00</h3>
+                </div>
+                <div class="col-10 col-lg-4 px-3 mx-auto mb-5">
+                    <img src="image/menu/menu2.png" class="card-img w-100">
+                    <h2 class="card-title">ITALIAN SOURCE MASHROOM</h2>
+                    <p class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <h3 class="card-price">PRICE: $12.00</h3>
+                </div>
+                <div class="col-10 col-lg-4 px-3 mx-auto mb-5">
+                    <img src="image/menu/menu3.png" class="card-img w-100">
+                    <h2 class="card-title">ITALIAN SOURCE MASHROOM</h2>
+                    <p class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <h3 class="card-price">PRICE: $12.00</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bestMeal position-relative">
+        <div class="container">
+            <div class="bestMeal-wrapper">
+                <img src="image/bestMeal.png" class="bestMeal-img d-none d-md-inline-block position-absolute">
+            </div>
+            <div class="bestMeal-caption col-10 mx-auto mr-md-0 col-md-6 col-lg-5">
+                <h2 class="bestMeal-title">Enjoy Best Meal</h2>
+                <p class="bestMeal-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer-img text-center">
+                <img src="image/footer/footer-logo.png" class="footer-logo">
+            </div>
+            <div class="nav-footer">
+                <ul class="nav col-12 col-lg-10 flex-column flex-md-row mx-auto justify-content-between text-center">
+                    <li class="nav-item mx-0">
+                        <a class="nav-link px-0 " href="#">HOME</a>
+                    </li>
+                    <li class="nav-item mx-0">
+                        <a class="nav-link px-0" href="#aboutUs">ABOUT US</a>
+                    </li>
+                    <li class="nav-item mx-0">
+                        <a class="nav-link px-0" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item mx-0">
+                        <a class="nav-link px-0 mr-0" href="#">FOODS</a>
+                    </li>
+                    <li class="nav-item mx-0">
+                        <a class="nav-link px-0 mr-0" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item mx-0">
+                        <a class="nav-link px-0 mr-0" href="#">LOCATION</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-icon px-0 col-12 col-sm-11 col-lg-4 mx-auto text-center">
+                <a href="#">
+                    <img src="image/footer/footer-facebook.png" class="mx-2">
+                </a>
+                <a href="#">
+                    <img src="image/footer/footer-twitter.png" class="mx-2">
+                </a>
+                <a href="#">
+                    <img src="image/footer/footer-instagram.png" class="mx-2">
+                </a>
+                <a href="#">
+                    <img src="image/footer/footet-pinterest.png" class="mx-2">
+                </a>
+            </div>
             
         </div>
     </section>
