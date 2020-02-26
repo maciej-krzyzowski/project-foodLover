@@ -234,6 +234,19 @@ body {
   margin-bottom: 32px;
 }
 
+.signature {
+  font-family: "Montserrat";
+}
+
+.freepik {
+  font-family: "Montserrat";
+  color: #fff;
+}
+
+.freepik:hover {
+  color: #e58f00;
+}
+
 @media (min-width: 1300px) {
   .container {
     max-width: 1300px;

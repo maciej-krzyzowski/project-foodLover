@@ -263,6 +263,19 @@ body {
     margin-bottom: 32px;
 }
 
+.signature {
+    font-family: $font-montserrat;
+}
+
+.freepik {
+    font-family: $font-montserrat;
+    color: $color-white;
+
+    &:hover {
+        color: $color-yellow;
+    }
+}
+
 @media (min-width: 1300px) {
 
     .container {
